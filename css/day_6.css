@@ -1,0 +1,36 @@
+.para{
+    /* color: green; */
+    /* color: rgb(150 , 200 , 80 ); */
+    color: #04f40c;
+}
+
+.container{
+    height: 300px;
+    background-color: #04f40c;
+    background-image: url(../download.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5; /*0 - 1*/
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #09549e;
+    /* padding: 30px; */
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
+    /* border: 4px dotted #04f40c; */
+    border-top-width: 3px;
+    border-bottom-width: 2px;
+    border-left-width: 4px;
+    border-right-width: 5px;
+    border-style: solid;
+    border-left-style: dotted;
+    border-right-color: aquamarine;
+    border-radius: 30px;
+    margin: 30px;
+}
